@@ -1,0 +1,5 @@
+CREATE TABLE `blocks` (
+  `id` int(11) NOT NULL,
+  `type` tinyint(1) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1 
